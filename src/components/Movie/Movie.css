@@ -1,0 +1,22 @@
+.divmovie{
+    border: 1px solid aqua;
+    margin: 5px;
+    border-radius: 5%;  
+    margin: 0.5rem;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-items {
+    margin-top: auto;
+}
+
+.btnclck{
+    width: 200px;
+    height: 50px;
+    margin: 40px;
+    background-color:chocolate;
+
+}

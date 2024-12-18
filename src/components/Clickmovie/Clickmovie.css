@@ -1,0 +1,35 @@
+.txt {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.full{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    
+}
+
+.content {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+}
+.cls{
+    width: 270px;
+    height: 150px;
+    border: pink;
+    border-style: outset;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.ymom{
+    width: 500px;
+    height: auto;
+    align-items: center;
+}
