@@ -19,14 +19,7 @@ const Page = () => {
 
   const handlehash = ()=>{
     const hashvalue = value
-    try{ 
-
-      window.location.assign('http://localhost:5173/'+ "#" + encodeURI(hashvalue))
-    }
-    catch{
-
-      window.location.assign('http://localhost:5173/'+ "#" + decodeURI(hashvalue))
-    }
+      window.location.assign(`${location.origin}/#` + encodeURI(hashvalue))
   }
   
   useEffect(()=>{

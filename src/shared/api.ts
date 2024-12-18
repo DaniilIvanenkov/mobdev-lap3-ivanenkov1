@@ -3,7 +3,7 @@ import { IMovierdo, IMoviefilm } from "../entity/movie/movie.rdo";
 
 const API_KEY = import.meta.env.VITE_YOUR_API_KEY;
 const OMDBInstance = axios.create({
-  baseURL: "http://www.omdbapi.com/",
+  baseURL: "https://www.omdbapi.com/",
 });
 
 const OMDB = {
